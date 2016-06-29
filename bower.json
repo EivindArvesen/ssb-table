@@ -1,0 +1,28 @@
+{
+  "name": "ssb-table",
+  "version": "0.0.1",
+  "authors": [
+    "Eivind Arvesen <eivind.arvesen@gmail.com>"
+  ],
+  "description": "Sortable tables of data from SSB",
+  "main": "resources/themes/default/main.css",
+  "keywords": [
+    "ssb",
+    "table"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/eivind88/ssb-table",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
