@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
 
     <link href="main.min.css" rel="stylesheet">
 
@@ -34,11 +35,11 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">Befolkningsutvikling. Kommuner, siste 9 kvartaler</h1>
-            <p class="lead">Datagrunnlag fra <a href="http://data.ssb.no/api/v0/dataset/1106?lang=no">SSB</a></p>
+            <p class="lead">Dataset from <a href="http://data.ssb.no/api/v0/dataset/1106?lang=no">SSB</a></p>
+          </div>
 
-            <div id="debug">
-              <span class="loading"></span>
-            </div>
+          <div id="debug">
+            <span class="loading"></span>
           </div>
 
           <div class="footer">
@@ -65,11 +66,12 @@
 
     <script src="assets/json-stat.js"></script>
     <script src="assets/json-stat.utils.js"></script>
-    <script src="assets/tablesort.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+
     <!--
     <script src="https://raw.githubusercontent.com/badosa/JSON-stat/master/json-stat.js"></script>
     <script src="https://raw.githubusercontent.com/badosa/JSON-stat/master/utils/json-stat.utils.js"></script>
-    <script src="https://raw.githubusercontent.com/tristen/tablesort/gh-pages/tablesort.min.js"></script>
     -->
     <script src="main.min.js"></script>
   </body>

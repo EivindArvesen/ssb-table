@@ -14,17 +14,19 @@ JSONstat(
     // Fix bad behavior from JSONstat library
     $('<thead></thead>').prependTo('#table').append($('#table tbody tr:first'));
 
-    new Tablesort(document.getElementById('table'));
+    //new Tablesort(document.getElementById('table'));
+    $(document).ready(function() {
+        $('#table').DataTable();
+    } );
   }
 );
 
 /*
         MANGLER:
-        - Pagination
         - Caching
         - Filtrering (på variabler/kategorier)
         - Generalisering (brukbar med hvilket som helst datasett)
-        - Ikoener (trekanter) i thead, indikasjon på nåværende sortering
+        - Ikoner (trekanter) i thead, indikasjon på nåværende sortering
         - Ytelsesforbedring
         - Universell utforming
  */
