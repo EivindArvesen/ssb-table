@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 
     JSONstat(
-      'http://data.ssb.no/api/v0/dataset/1108.json?lang=no',
+      'https://data.ssb.no/api/v0/dataset/1108.json?lang=no',
       function(){
         var html=JSONstatUtils.datalist(
           this,
